@@ -1,6 +1,6 @@
-# Gravity Forms Sass
+# Formy Sass
 
-I love the Gravity Forms plugin for WordPress, but never cared for the excessive stylesheets and complicated selectors it introduced. This project aims to offer styling for GForms using Sass and minimal selectors.
+> I love the Gravity Forms plugin for WordPress, but never cared for the excessive stylesheets and complicated selectors it introduced. This project aims to offer styling for GForms using Sass and minimal selectors.
 
 
 ## Included
@@ -32,8 +32,40 @@ Want to help out? Awesome!
 
 Please don't make pull requests against the `master` branch. This is the latest, stable code. You can make a pull request against the `dev` (future release) branch.
 
+## Variables
 
-## TODO
+```sass
+$input-bg:           #fff !default;
+$input-color:        #999 !default;
+$input-border:       #ddd !default;
+$input-border-focus: #999 !default;
+$input-label:        #666 !default;
+$input-error:        #ca3c3c !default;
+$input-shadow:       1px 1px 2px #eee inset !default;
+$input-transition:   all .3s ease-in-out !default;
+
+$form-button-background:       #333 !default;
+$form-button-background-hover: #0078e7 !default;
+$form-button-color:            #fff !default;
+
+$form-required: #f00 !default;
+$form-muted:    #858585 !default;
+
+$form-font-size:   16px !default;
+$form-line-height: $form-font-size * 1.5 !default;
+$form-space:       $form-line-height / 2 !default;
+
+$white: #fff !default;
+$gray:  #aaa !default;
+```
+
+## General TODO
+
+1. Crossbrowser testing
+2. Material Design label
+3. ...
+
+## Gravity related TODO
 
 Some parts of the styling still need to be addressed, 
 
@@ -54,11 +86,8 @@ For a visual overview or the basic styling thus far there are some [screenshots]
 
 ## Resources
 
-Links 'n stuff
-
 * [Gravity Forms](http://www.gravityforms.com/)
 * [Gravity Forms Ready Classes](http://www.gravityhelp.com/documentation/page/CSS_Ready_Classes)
-* Say hi on Twitter [@ryanolson](http://twitter.com/ryanolson)
 
 ## Changelog
 
