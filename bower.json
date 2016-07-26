@@ -1,18 +1,15 @@
 {
-	"name": "gravity-forms-sass",
-	"description": "Replacement styling for Gravity Forms WordPress plugin written in Sass.",
-	"version": "1.1.0",
+	"name": "formy-sass",
+	"description": "Form styling sass lib with optional replacement for Gravity Forms WordPress plugin. Forked from thatryan/gravity-forms-sass",
+	"version": "1.0.0",
 	"keywords": [
 		"gravity-forms",
 		"sass"
 	],
-	"homepage": "http://github.com/thatryan/gravity-forms-sass",
+	"homepage": "https://yumyo@github.com/yumyo/formy-sass",
 	"license": "MIT",
 	"main": [
-		"_form-default.scss",
-		"_form-gravity.scss",
-		"_form-mixins.scss",
-		"_form-variables.scss"
+		"_formy.scss"
 	],
 	"ignore": [
 		"**/.*",
