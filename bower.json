@@ -13,6 +13,10 @@
 	"main": [
 		"scss/_formy.scss"
 	],
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/yumyo/formy-sass.git"
+	},
 	"ignore": [
 		"**/.*",
 		"screenshots",
